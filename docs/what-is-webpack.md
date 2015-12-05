@@ -29,7 +29,7 @@ webpack在依赖树中有两种类型的依赖：同步和异步。
 
 更多关于 [Code Splitting](http://webpack.github.io/docs/code-splitting.html)
 
-#### [[Loaders]]
+#### [Loaders]
 
 webpack 只可以被用来处理JavaScript, 但是 loaders 能够把其它资源转换为JavaScript. 这样,每个资源都是一个模块.
 
@@ -37,7 +37,7 @@ webpack 只可以被用来处理JavaScript, 但是 loaders 能够把其它资源
 
 #### 智能解析
 
-webpack有一个智能的解析器，它能处理几乎每个第三方库.它甚至允许依赖项中的表达式，例如 `require("./templates/" + name + ".jade")`. 它可以处理最常见的模块样式: [[CommonJs]] and [[AMD]].
+webpack有一个智能的解析器，它能处理几乎每个第三方库.它甚至允许依赖项中的表达式，例如 `require("./templates/" + name + ".jade")`. 它可以处理最常见的模块样式: [CommonJs] and [AMD].
 
 更多关于 [expressions in dependencies | Context](http://webpack.github.io/docs/context.html)
 
