@@ -70,8 +70,6 @@ module.exports = someValue;
 
 [`异步模块定义`](https://github.com/amdjs/amdjs-api/wiki/AMD)
 
-Other module systems (for the browser) had problems with the synchronous `require` (CommonJs) and introduced an asynchronous version (and a way to define modules and exporting values):
-
 其他的基于浏览器的模块系统为了解决CommonJs的同步问题,引进了一套异步版本
 
 ``` javascript
@@ -151,7 +149,7 @@ module "localModule" {}
 
 Note: The [idea is from Google's GWT](https://developers.google.com/web-toolkit/doc/latest/DevGuideCodeSplitting).
 
-更多关于 [[Code Splitting]].
+更多关于 [Code Splitting](http://webpack.github.io/docs/code-splitting.html).
 
 ---
 
@@ -186,7 +184,7 @@ require("./template.jade");
 require("./image.png");
 ```
 
-更多关于 [[Using loaders]] and [[Loaders]].
+更多关于 [Using loaders](http://webpack.github.io/docs/using-loaders.html) and [Loaders](http://webpack.github.io/docs/loaders.html).
 
 ---
 
